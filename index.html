@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="./dist/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="cssFile.css">
+    <title>Title</title>
+</head>
+<body id="body" onkeydown="onKeyDownCommon()">
+  <div id="startBlock" class="startBlock"><div style="text-align: center">Информация об игре</div>
+    <br>
+    <div style="left:10%; right: 10%">
+      Вставьте размеры игры
+      <input id="input1" class="numberInput" value="2"><input id="input2" class="numberInput" value="3">
+    </div>
+    <div>(числа от 1 до 10)</div>
+    <br>
+    <div style="left:10%; right: 10%">
+      Вставьте количество складов
+      <input id="input3" class="numberInput" value="3">
+      <br>
+      <div>(хотя бы 1, но не больше, чем клеток)</div>
+      <br>
+      Вставьте количество ящиков на карте
+      <input id="input4" class="numberInput" value="30">
+      <br>
+      <div>(не меньше, чем складов)</div>
+      <br>
+      Вставьте максимальную грузоподъёмность
+      <input id="input5" class="numberInput" value="5">
+      <br>
+      <div>(хотя бы 1)</div>
+      <br>
+    </div>
+    <button id="bn" style="width:100px" onclick="startFunc()">Start</button>
+  </div>
+</body>
+<script>
+
+</script>
+</html>

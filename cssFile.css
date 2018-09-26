@@ -1,0 +1,35 @@
+.startBlock{
+  position: absolute;
+  left: 420px;
+  right: 420px;
+  top: 200px;
+  height: 400px;
+  background-color: red;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.4em;
+}
+.numberInput{
+  width: 50px;
+}
+.gameBlock{
+  position:absolute;
+
+  top:50px;
+  left:390px;
+  background-color: yellow;
+  font-size: 2em;
+  color:black;
+  border: none;
+}
+.player{
+  background: url("worker(NONE, normal).png") no-repeat center ;
+  border: none;
+}
+.playerChestsInfo{
+  position:absolute;
+  top:50px;
+  left:100px;
+  width:100px;
+  height: 100px;
+}
