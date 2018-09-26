@@ -6,8 +6,9 @@
     <link rel="stylesheet" type="text/css" href="cssFile.css">
     <title>Title</title>
 </head>
-<body id="body" onkeydown="onKeyDownCommon()">
-  <div id="startBlock" class="startBlock"><div style="text-align: center">Информация об игре</div>
+<body id="body" onkeydown="work.onKeyDownCommon()">
+  <div id="startBlock" class="startBlock"><div>Информация об игре</div>
+    <div>(для удобства вставлены данные по умолчанию)</div>
     <br>
     <div style="left:10%; right: 10%">
       Вставьте размеры игры
@@ -32,7 +33,7 @@
       <div>(хотя бы 1)</div>
       <br>
     </div>
-    <button id="bn" style="width:100px" onclick="startFunc()">Start</button>
+    <button id="bn" style="width:100px" onclick="work.startFunc()">Start</button>
   </div>
 </body>
 <script>
